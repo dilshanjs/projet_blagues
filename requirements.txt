@@ -3,3 +3,4 @@ python-dotenv
 google-cloud-storage
 google-cloud-aiplatform
 pandas
+gunicorn
