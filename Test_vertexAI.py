@@ -48,7 +48,8 @@ def main():
 
     # 5) Envoie une requête test
     try:
-        response = model.generate_content("Tell me a joke")
+        response = model.generate_content(
+            "Genère moi une blague en français")
         # Selon version de la lib, soit response.text, soit response.candidates[0].content.text
         joke = getattr(response, "text", None) or response.candidates[0].content.text
         print("🤖 Blague générée :", joke)
