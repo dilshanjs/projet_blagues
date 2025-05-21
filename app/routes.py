@@ -12,18 +12,19 @@ PROJECT_ID = os.getenv("PROJECT_ID")
 LOCATION   = os.getenv("LOCATION")
 
 # Forcer le chemin des credentials
-current_dir = Path(__file__).parent.parent
-credentials_path = current_dir / "mini-projet-459407-943395c7a1f3.json"
+credentials_path = r"C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-943395c7a1f3.json"
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = str(credentials_path)
 
 print(f"Using credentials from: {credentials_path}")
-print(f"Credentials file exists: {credentials_path.exists()}")
+print(f"Credentials file exists: {os.path.exists(credentials_path)}")
 
 # Initialisation Vertex AI avec le projet et la région
+print("Initialisation de Vertex AI...")
 vertexai.init(project=PROJECT_ID, location=LOCATION)
 
-# Chargement du modèle (ici Gemini 2.5 Pro Preview)
-joke_model = GenerativeModel("gemini-2.5-pro-preview-05-06")
+# Chargement du modèle (ici Gemini Pro)
+print("Chargement du modèle Gemini...")
+joke_model = GenerativeModel("gemini-pro")
 
 # ------------------------
 
@@ -80,11 +81,19 @@ def register_routes(app):
     @app.route("/api/joke", methods=["GET"])
     def get_joke():
         try:
+            print("Tentative de génération de blague...")
+            print(f"PROJECT_ID: {PROJECT_ID}")
+            print(f"LOCATION: {LOCATION}")
+            print(f"Credentials path: {credentials_path}")
+            
             # Envoi de la requête au modèle
-            response = joke_model.generate_content("Tell me a joke")
+            print("Envoi de la requête au modèle...")
+            response = joke_model.generate_content("Tell me a short joke in French")
+            print("Réponse reçue du modèle")
 
             # Récupération du texte de la première réponse
-            joke_text = response.candidates[0].content.text
+            joke_text = response.text
+            print(f"Blague générée avec succès: {joke_text[:50]}...")
             return jsonify({"joke": joke_text})
         except Exception as e:
             import traceback

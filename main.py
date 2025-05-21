@@ -8,9 +8,13 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 load_dotenv()
 
-# Création de l'application Flask avec le bon chemin pour les templates
+# Création de l'application Flask avec le bon chemin pour les templates et les fichiers statiques
 template_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), 'app', 'templates'))
-app = Flask(__name__, template_folder=template_dir)
+static_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), 'app', 'static'))
+app = Flask(__name__, 
+           template_folder=template_dir,
+           static_folder=static_dir,
+           static_url_path='/static')
 register_routes(app)
 
 if __name__ == "__main__":
