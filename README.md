@@ -183,7 +183,7 @@ logging.basicConfig(
 
 # 2. Configuration de Vertex AI
 vertexai.init(project=PROJECT_ID, location=LOCATION)
-joke_model = GenerativeModel("gemini-2.5-pro-preview-05-06")
+joke_model = GenerativeModel("gemini-2.0-flash-001")
 ```
 
 ### 3. Flux d'Exécution des Routes
@@ -219,7 +219,7 @@ joke_model = GenerativeModel("gemini-2.5-pro-preview-05-06")
 #### Vertex AI (Gemini)
 - Utilisé pour la génération de blagues
 - Configuration via les credentials Google Cloud
-- Modèle : `gemini-2.5-pro-preview-05-06`
+- Modèle : `gemini-2.0-flash-001`
 
 #### Cloud Storage
 - Stockage des blagues favorites
