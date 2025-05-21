@@ -6,6 +6,7 @@ from vertexai.preview.generative_models import GenerativeModel
 from pathlib import Path
 import logging
 from datetime import datetime
+import random
 
 # Configuration du logging
 log_dir = Path(__file__).parent.parent / "logs"
@@ -29,7 +30,7 @@ PROJECT_ID = os.getenv("PROJECT_ID", "mini-projet-459407")
 LOCATION = os.getenv("LOCATION", "us-central1")
 
 # Configuration des credentials
-credentials_path = os.path.join(os.getcwd(), "mini-projet-459407-5eeaa3b13b0e.json")
+credentials_path = "C:/Users/dilsh/Documents/Credentials/mini-projet-459407-5eeaa3b13b0e.json"
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = credentials_path
 
 print(f"Using credentials from: {credentials_path}")
@@ -45,7 +46,7 @@ try:
     logger.info("Vertex AI init réussi")
     
     # Chargement du modèle avec le nom correct
-    joke_model = GenerativeModel("gemini-2.5-pro-preview-05-06")
+    joke_model = GenerativeModel("gemini-2.0-flash-001")
     logger.info("Modèle Gemini chargé avec succès")
 except Exception as e:
     logger.error(f"Erreur lors de l'initialisation de Vertex AI: {str(e)}")
@@ -113,7 +114,34 @@ def register_routes(app):
     def get_joke():
         try:
             logger.info("Génération d'une blague")
-            response = joke_model.generate_content("Tell me a joke")
+            # Liste de différents types de blagues avec plus de variété
+            prompts = [
+                "Raconte-moi une blague drôle en français sur la vie quotidienne",
+                "Génère une blague courte et amusante en français sur le travail",
+                "Fais-moi rire avec une blague en français sur les animaux",
+                "Donne-moi une blague originale en français sur la technologie",
+                "Crée une blague marrante en français sur la cuisine",
+                "Invente une blague en français sur les voyages",
+                "Partage une blague drôle en français sur l'école",
+                "Écris une blague humoristique en français sur le sport",
+                "Raconte une blague en français sur les relations",
+                "Génère une blague en français sur la météo",
+                "Crée une blague en français sur les transports",
+                "Invente une blague en français sur les loisirs"
+            ]
+            prompt = random.choice(prompts)
+            
+            # Configuration de la génération avec des paramètres optimisés pour la variété
+            generation_config = {
+                "temperature": 0.95,  # Très proche du maximum pour plus de créativité
+                "top_p": 0.95,       # Augmentation significative de la diversité
+                
+            }
+            
+            response = joke_model.generate_content(
+                prompt,
+                generation_config=generation_config
+            )
             joke_text = response.candidates[0].content.text
             logger.info("Blague générée avec succès")
             return jsonify({"joke": joke_text})
