@@ -30,9 +30,9 @@ FILE_NAME   = os.getenv("FILE_NAME")
 def setup_credentials():
     """Configure les credentials Google Cloud de manière centralisée."""
     try:
-        credentials_path = Path(__file__).parent.parent / "mini-projet-459407-5eeaa3b13b0e.json"
-        if credentials_path.exists():
-            os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = str(credentials_path)
+        credentials_path = "C:/Users/dilsh/Documents/Credentials/mini-projet-459407-5eeaa3b13b0e.json"
+        if os.path.exists(credentials_path):
+            os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = credentials_path
             logger.info(f"Credentials configurés depuis : {credentials_path}")
             return True
         else:
