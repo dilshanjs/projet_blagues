@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de Blagues</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🤣 Générateur de Blagues</h1>
+        <div class="joke-container">
+            <p class="joke-text" id="joke">Cliquez sur le bouton pour obtenir une blague !</p>
+        </div>
+        <div class="loading" id="loading"></div>
+        <div class="buttons-container">
+            <button onclick="getJoke()">Nouvelle Blague</button>
+            <button class="save" onclick="saveJoke()" id="saveButton">Sauvegarder</button>
+        </div>
+
+        <div class="favorite-jokes" id="favoriteJokes">
+            <h2>Mes Blagues Préférées</h2>
+            <div id="favoritesList"></div>
+        </div>
+    </div>
+
+    <script>
+        let currentJoke = '';
+        let savedJokes = JSON.parse(localStorage.getItem('savedJokes') || '[]');
+
+        function updateFavoritesList() {
+            const favoritesList = document.getElementById('favoritesList');
+            favoritesList.innerHTML = '';
+            
+            savedJokes.forEach((joke, index) => {
+                const jokeElement = document.createElement('div');
+                jokeElement.className = 'favorite-joke';
+                jokeElement.innerHTML = `
+                    <span>${joke}</span>
+                    <button onclick="removeJoke(${index})">Supprimer</button>
+                `;
+                favoritesList.appendChild(jokeElement);
+            });
+        }
+
+        function saveJoke() {
+            if (!currentJoke) return;
+            
+            if (!savedJokes.includes(currentJoke)) {
+                savedJokes.push(currentJoke);
+                localStorage.setItem('savedJokes', JSON.stringify(savedJokes));
+                updateFavoritesList();
+                
+                const saveButton = document.getElementById('saveButton');
+                saveButton.textContent = 'Sauvegardé !';
+                saveButton.classList.add('saved');
+                setTimeout(() => {
+                    saveButton.textContent = 'Sauvegarder';
+                    saveButton.classList.remove('saved');
+                }, 2000);
+            }
+        }
+
+        function removeJoke(index) {
+            savedJokes.splice(index, 1);
+            localStorage.setItem('savedJokes', JSON.stringify(savedJokes));
+            updateFavoritesList();
+        }
+
+        async function getJoke() {
+            const jokeElement = document.getElementById('joke');
+            const loadingElement = document.getElementById('loading');
+            const saveButton = document.getElementById('saveButton');
+            
+            try {
+                loadingElement.style.display = 'block';
+                jokeElement.textContent = '';
+                saveButton.style.display = 'none';
+                
+                const response = await fetch('/api/joke');
+                const data = await response.json();
+                
+                if (data.error) {
+                    jokeElement.textContent = "Désolé, une erreur s'est produite. Réessayez !";
+                } else {
+                    currentJoke = data.joke;
+                    jokeElement.textContent = currentJoke;
+                    saveButton.style.display = 'block';
+                }
+            } catch (error) {
+                jokeElement.textContent = "Désolé, une erreur s'est produite. Réessayez !";
+            } finally {
+                loadingElement.style.display = 'none';
+            }
+        }
+
+        // Charger les blagues sauvegardées au démarrage
+        updateFavoritesList();
+    </script>
+</body>
+</html> 

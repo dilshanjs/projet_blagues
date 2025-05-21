@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message de Bienvenue - API Cloud</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 600px;
+            width: 90%;
+            position: relative;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            background: none;
+            border: none;
+            color: #7f8c8d;
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .back-button:hover {
+            transform: translateX(-5px);
+        }
+
+        .welcome-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            animation: wave 2s infinite;
+        }
+
+        @keyframes wave {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(-20deg); }
+            75% { transform: rotate(20deg); }
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+
+        .message {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 1.5rem 0;
+            font-size: 1.2rem;
+            color: #34495e;
+            line-height: 1.6;
+        }
+
+        .endpoint-info {
+            background: #2c3e50;
+            color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            font-family: monospace;
+            margin-top: 2rem;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-button">←</a>
+        <div class="welcome-icon">👋</div>
+        <h1>Message de Bienvenue</h1>
+        <div class="message" id="welcomeMessage">Chargement...</div>
+        <div class="endpoint-info">GET /hello</div>
+    </div>
+
+    <script>
+        async function loadWelcomeMessage() {
+            try {
+                const response = await fetch('/hello', {
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+                const data = await response.json();
+                document.getElementById('welcomeMessage').textContent = data.message;
+            } catch (error) {
+                document.getElementById('welcomeMessage').textContent = "Erreur lors du chargement du message";
+            }
+        }
+
+        loadWelcomeMessage();
+    </script>
+</body>
+</html> 

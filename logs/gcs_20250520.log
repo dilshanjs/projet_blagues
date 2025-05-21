@@ -1,0 +1,468 @@
+2025-05-20 19:46:46,527 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 19:46:46,529 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 19:46:46,529 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 19:46:46,531 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 19:46:46,580 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.176:8080
+2025-05-20 19:46:46,581 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-20 19:46:46,589 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 19:46:49,317 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 19:46:49,318 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 19:46:49,319 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 19:46:49,320 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 19:46:49,346 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 19:46:49,359 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 19:47:15,132 - app_routes - INFO - Accès à la page d'accueil
+2025-05-20 19:47:15,138 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 19:47:15] "GET / HTTP/1.1" 200 -
+2025-05-20 19:47:21,061 - gcs_operations - INFO - Tentative de lecture du fichier GCS
+2025-05-20 19:47:21,148 - gcs_operations - ERROR - Erreur lors de la lecture du fichier GCS: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-05-20 19:47:21,149 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 19:47:21] "[35m[1mGET /data HTTP/1.1[0m" 500 -
+2025-05-20 19:48:23,149 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\anaconda3\\Lib\\site-packages\\google\\cloud\\storage\\client.py', reloading
+2025-05-20 19:48:23,279 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\anaconda3\\Lib\\site-packages\\google\\cloud\\storage\\blob.py', reloading
+2025-05-20 19:48:23,383 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\anaconda3\\Lib\\site-packages\\google\\api_core\\retry\\retry_unary.py', reloading
+2025-05-20 19:48:23,392 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\anaconda3\\Lib\\site-packages\\google\\api_core\\retry\\retry_base.py', reloading
+2025-05-20 19:48:24,859 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 19:48:27,965 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 19:48:27,965 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 19:48:27,966 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 19:48:27,967 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 19:48:27,991 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 19:48:28,002 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 19:49:00,482 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 19:49:00,485 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 19:49:02,087 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 19:49:05,667 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 19:49:05,667 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 19:49:05,668 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 19:49:05,669 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 19:49:05,691 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 19:49:05,703 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 19:50:57,571 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\anaconda3\\Lib\\site-packages\\google\\auth\\credentials.py', reloading
+2025-05-20 19:50:57,627 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\anaconda3\\Lib\\site-packages\\google\\auth\\_default.py', reloading
+2025-05-20 19:50:57,660 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\anaconda3\\Lib\\site-packages\\google\\auth\\transport\\requests.py', reloading
+2025-05-20 19:50:57,719 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\anaconda3\\Lib\\site-packages\\google\\oauth2\\service_account.py', reloading
+2025-05-20 19:50:59,158 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 19:51:02,220 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 19:51:02,221 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 19:51:02,221 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 19:51:02,222 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 19:51:02,242 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 19:51:02,252 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 19:51:08,285 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\anaconda3\\Lib\\logging\\__init__.py', reloading
+2025-05-20 19:51:09,748 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 19:51:12,836 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 19:51:12,836 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 19:51:12,837 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 19:51:12,837 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 19:51:12,862 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 19:51:12,875 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 19:54:37,735 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 19:54:37,735 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 19:54:37,735 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 19:54:37,736 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 19:54:37,770 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.176:8080
+2025-05-20 19:54:37,771 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-20 19:54:37,778 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 19:54:40,759 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 19:54:40,760 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 19:54:40,760 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 19:54:40,761 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 19:54:40,782 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 19:54:40,794 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 19:54:47,354 - app_routes - INFO - Accès à la page d'accueil
+2025-05-20 19:54:47,359 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 19:54:47] "GET / HTTP/1.1" 200 -
+2025-05-20 19:54:49,705 - gcs_operations - INFO - Tentative de lecture du fichier GCS
+2025-05-20 19:54:49,798 - gcs_operations - ERROR - Erreur lors de la lecture du fichier GCS: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-05-20 19:54:49,800 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 19:54:49] "[35m[1mGET /data HTTP/1.1[0m" 500 -
+2025-05-20 19:54:54,093 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 19:54:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 19:55:49,419 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 19:55:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 19:55:49,454 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 19:55:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 19:55:51,462 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 19:55:51] "GET /joke HTTP/1.1" 200 -
+2025-05-20 19:55:51,484 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 19:55:51] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-05-20 19:55:51,498 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 19:55:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 19:55:53,160 - app_routes - INFO - Génération d'une blague
+2025-05-20 19:55:53,521 - app_routes - ERROR - Erreur lors de la génération de la blague: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+2025-05-20 19:55:53,524 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 19:55:53] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-20 19:57:28,010 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\anaconda3\\Lib\\os.py', reloading
+2025-05-20 19:57:28,011 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\anaconda3\\Lib\\os.py', reloading
+2025-05-20 19:57:29,503 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 19:57:31,511 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 19:57:32,769 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 19:57:32,770 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 19:57:32,770 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 19:57:32,771 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 19:57:32,792 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 19:57:32,808 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 19:57:34,643 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 19:57:34,644 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 19:57:34,644 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 19:57:34,645 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 19:57:34,668 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 19:57:34,681 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 19:58:01,156 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 19:58:01,156 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 19:58:01,157 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 19:58:01,157 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 19:58:01,200 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.176:8080
+2025-05-20 19:58:01,201 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-20 19:58:01,209 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 19:58:03,842 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 19:58:03,843 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 19:58:03,843 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 19:58:03,844 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 19:58:03,863 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 19:58:03,876 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 19:58:09,985 - app_routes - INFO - Accès à la page d'accueil
+2025-05-20 19:58:09,989 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 19:58:09] "GET / HTTP/1.1" 200 -
+2025-05-20 19:58:16,729 - gcs_operations - INFO - Tentative de lecture du fichier GCS
+2025-05-20 19:58:16,836 - gcs_operations - ERROR - Erreur lors de la lecture du fichier GCS: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-05-20 19:58:16,838 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 19:58:16] "[35m[1mGET /data HTTP/1.1[0m" 500 -
+2025-05-20 20:01:42,174 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\utils.py', reloading
+2025-05-20 20:01:42,175 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\utils.py', reloading
+2025-05-20 20:01:43,759 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:01:47,077 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 20:01:47,078 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:01:47,079 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:01:47,080 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:01:47,106 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:01:47,120 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:01:53,129 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:01:53,131 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:01:53,134 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:01:54,583 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:01:57,514 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 20:01:57,514 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:01:57,515 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:01:57,515 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:01:57,536 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:01:57,548 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:02:04,590 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 20:02:04,591 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:02:04,591 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:02:04,592 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:02:04,633 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.176:8080
+2025-05-20 20:02:04,635 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-20 20:02:04,643 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:02:07,266 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 20:02:07,267 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:02:07,267 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:02:07,268 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:02:07,289 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:02:07,302 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:02:30,924 - app_routes - INFO - Accès à la page d'accueil
+2025-05-20 20:02:30,929 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:02:30] "GET / HTTP/1.1" 200 -
+2025-05-20 20:02:33,700 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\anaconda3\\Lib\\site-packages\\google\\cloud\\storage\\_http.py', reloading
+2025-05-20 20:02:33,700 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\anaconda3\\Lib\\site-packages\\google\\cloud\\storage\\_http.py', reloading
+2025-05-20 20:02:33,703 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\anaconda3\\Lib\\site-packages\\google\\cloud\\_http\\__init__.py', reloading
+2025-05-20 20:02:33,703 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\anaconda3\\Lib\\site-packages\\google\\cloud\\_http\\__init__.py', reloading
+2025-05-20 20:02:33,707 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\anaconda3\\Lib\\site-packages\\google\\oauth2\\_client.py', reloading
+2025-05-20 20:02:33,707 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\anaconda3\\Lib\\site-packages\\google\\oauth2\\_client.py', reloading
+2025-05-20 20:02:33,713 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:02:33] "[35m[1mGET /data HTTP/1.1[0m" 500 -
+2025-05-20 20:02:35,208 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:02:35,217 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:02:38,292 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 20:02:38,293 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:02:38,294 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:02:38,294 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:02:38,298 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 20:02:38,300 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:02:38,300 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:02:38,301 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:02:38,320 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:02:38,327 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:02:38,339 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:02:38,341 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:11:00,257 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 20:11:00,258 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:11:00,258 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:11:00,259 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:11:00,304 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.176:8080
+2025-05-20 20:11:00,306 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-20 20:11:00,316 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:11:03,053 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 20:11:03,053 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:11:03,053 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:11:03,054 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:11:03,073 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:11:03,085 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:11:12,551 - app_routes - INFO - Accès à la page d'accueil
+2025-05-20 20:11:12,558 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:11:12] "GET / HTTP/1.1" 200 -
+2025-05-20 20:11:16,622 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:11:16] "[35m[1mGET /data HTTP/1.1[0m" 500 -
+2025-05-20 20:24:36,233 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 20:24:36,233 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:24:36,234 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:24:36,234 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:24:36,276 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.176:8080
+2025-05-20 20:24:36,279 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-20 20:24:36,287 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:24:39,263 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 20:24:39,264 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:24:39,264 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:24:39,265 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:24:39,287 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:24:39,297 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:24:45,560 - app_routes - INFO - Accès à la page d'accueil
+2025-05-20 20:24:45,561 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:24:45] "GET / HTTP/1.1" 200 -
+2025-05-20 20:24:48,689 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:24:48] "[35m[1mGET /data HTTP/1.1[0m" 500 -
+2025-05-20 20:27:26,038 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:27:26] "GET /joke HTTP/1.1" 200 -
+2025-05-20 20:27:26,054 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:27:26] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-05-20 20:27:27,229 - app_routes - INFO - Génération d'une blague
+2025-05-20 20:27:27,624 - app_routes - ERROR - Erreur lors de la génération de la blague: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+2025-05-20 20:27:27,627 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:27:27] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-20 20:27:39,497 - app_routes - INFO - Génération d'une blague
+2025-05-20 20:27:39,729 - app_routes - ERROR - Erreur lors de la génération de la blague: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+2025-05-20 20:27:39,732 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:27:39] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-20 20:28:11,286 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 20:28:11,287 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:28:11,287 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:28:11,288 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:28:11,330 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.176:8080
+2025-05-20 20:28:11,331 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-20 20:28:11,340 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:28:14,077 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 20:28:14,079 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:28:14,079 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:28:14,080 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:28:14,099 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:28:14,111 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:28:21,494 - app_routes - INFO - Accès à la page d'accueil
+2025-05-20 20:28:21,495 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:28:21] "GET / HTTP/1.1" 200 -
+2025-05-20 20:28:24,602 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:28:24] "GET /joke HTTP/1.1" 200 -
+2025-05-20 20:28:24,620 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:28:24] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-05-20 20:28:25,953 - app_routes - INFO - Génération d'une blague
+2025-05-20 20:28:26,256 - app_routes - ERROR - Erreur lors de la génération de la blague: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+2025-05-20 20:28:26,257 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:28:26] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-20 20:32:57,430 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:32:57,431 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:32:57,432 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:32:59,012 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:33:01,033 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:33:02,377 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 20:33:02,378 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:33:02,379 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:33:02,380 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:33:02,407 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:33:02,419 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:33:04,236 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 20:33:04,237 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:33:04,238 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:33:04,238 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:33:04,258 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:33:04,269 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:36:19,497 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\main.py', reloading
+2025-05-20 20:36:19,499 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\main.py', reloading
+2025-05-20 20:36:21,048 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:36:21,053 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:36:24,262 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 20:36:24,262 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-943395c7a1f3.json
+2025-05-20 20:36:24,263 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:36:24,263 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:36:24,263 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:36:24,264 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:36:24,264 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:36:24,264 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:36:24,294 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:36:24,307 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:36:24,307 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:36:37,839 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\utils.py', reloading
+2025-05-20 20:36:37,841 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\utils.py', reloading
+2025-05-20 20:36:39,380 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:36:42,356 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-20 20:36:42,356 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-20 20:36:42,357 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-20 20:36:42,357 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-20 20:36:42,357 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:36:42,357 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:36:42,358 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:36:42,358 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:36:42,358 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:36:42,358 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:36:42,383 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:36:42,383 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:36:42,397 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:36:42,397 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:37:05,701 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:37:05,702 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:37:05,703 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:37:05,703 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:37:05,703 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:37:07,273 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:37:10,543 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-20 20:37:10,544 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:37:10,544 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:37:10,544 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:37:10,547 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-20 20:37:10,548 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:37:10,548 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:37:10,549 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:37:10,566 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:37:10,569 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:37:10,578 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:37:10,582 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:37:34,779 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-20 20:37:34,779 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:37:34,780 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:37:34,780 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:37:34,817 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.176:8080
+2025-05-20 20:37:34,817 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-20 20:37:34,826 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:37:37,419 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-20 20:37:37,419 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:37:37,421 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:37:37,421 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:37:37,442 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:37:37,454 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:37:41,901 - app_routes - INFO - Accès à la page d'accueil
+2025-05-20 20:37:41,906 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:37:41] "GET / HTTP/1.1" 200 -
+2025-05-20 20:37:46,628 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:37:46] "GET /data HTTP/1.1" 200 -
+2025-05-20 20:37:46,816 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:37:46] "GET /data HTTP/1.1" 200 -
+2025-05-20 20:39:05,612 - app_routes - INFO - Accès à la page d'accueil
+2025-05-20 20:39:05,614 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:39:05] "GET / HTTP/1.1" 200 -
+2025-05-20 20:39:08,370 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:39:08] "GET /joke HTTP/1.1" 200 -
+2025-05-20 20:39:08,385 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:39:08] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-05-20 20:39:09,723 - app_routes - INFO - Génération d'une blague
+2025-05-20 20:39:18,105 - app_routes - INFO - Blague générée avec succès
+2025-05-20 20:39:18,107 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:39:18] "GET /api/joke HTTP/1.1" 200 -
+2025-05-20 20:40:09,662 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-20 20:40:09,663 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:40:09,664 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:40:09,665 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:40:09,710 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.176:8080
+2025-05-20 20:40:09,712 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-20 20:40:09,721 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:40:12,504 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-20 20:40:12,504 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:40:12,505 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:40:12,505 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:40:12,524 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:40:12,537 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:40:27,955 - app_routes - INFO - Accès à la page d'accueil
+2025-05-20 20:40:27,957 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:40:27] "GET / HTTP/1.1" 200 -
+2025-05-20 20:40:31,986 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:40:31] "GET /joke HTTP/1.1" 200 -
+2025-05-20 20:40:32,000 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:40:32] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-05-20 20:40:33,265 - app_routes - INFO - Génération d'une blague
+2025-05-20 20:40:43,400 - app_routes - INFO - Blague générée avec succès
+2025-05-20 20:40:43,402 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:40:43] "GET /api/joke HTTP/1.1" 200 -
+2025-05-20 20:45:28,995 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\Test_vertexAI.py', reloading
+2025-05-20 20:45:28,996 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\Test_vertexAI.py', reloading
+2025-05-20 20:45:30,633 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:45:32,621 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:45:33,976 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-20 20:45:33,977 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:45:33,977 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:45:33,977 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:45:33,996 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:45:34,009 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:45:35,916 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-20 20:45:35,917 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:45:35,917 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:45:35,919 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:45:35,942 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:45:35,953 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:46:19,879 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:46:19,879 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:46:19,880 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:46:21,430 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:46:21,430 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:46:24,529 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-20 20:46:24,555 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:46:24,557 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:46:24,558 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-20 20:46:24,558 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:46:24,565 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:46:24,570 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:46:24,595 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:46:24,598 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:46:24,607 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:46:24,625 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:46:24,650 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:46:24,683 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:46:24,684 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:46:26,157 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:46:29,089 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-20 20:46:29,090 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:46:29,090 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:46:29,091 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:46:29,109 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:46:29,121 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:46:32,051 - app_routes - INFO - Génération d'une blague
+2025-05-20 20:46:43,644 - app_routes - INFO - Blague générée avec succès
+2025-05-20 20:46:43,647 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:46:43] "GET /api/joke HTTP/1.1" 200 -
+2025-05-20 20:47:19,692 - app_routes - INFO - Génération d'une blague
+2025-05-20 20:47:32,899 - app_routes - INFO - Blague générée avec succès
+2025-05-20 20:47:32,901 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:47:32] "GET /api/joke HTTP/1.1" 200 -
+2025-05-20 20:47:55,504 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:47:55,504 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:47:55,538 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:47:55,539 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:47:55,539 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 20:47:57,060 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:47:59,078 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:48:00,210 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-20 20:48:00,210 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:48:00,211 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:48:00,212 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:48:00,242 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:48:00,256 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:48:02,386 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-20 20:48:02,387 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:48:02,387 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:48:02,388 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:48:02,407 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:48:02,417 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:48:07,860 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\utils.py', reloading
+2025-05-20 20:48:07,860 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\utils.py', reloading
+2025-05-20 20:48:07,861 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\utils.py', reloading
+2025-05-20 20:48:07,862 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\utils.py', reloading
+2025-05-20 20:48:09,391 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:48:09,397 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-20 20:48:12,306 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-20 20:48:12,306 - gcs_operations - INFO - Credentials configurés depuis : C:\Users\duval\OneDrive - ESME\ESME\Big data\data tools\blague_avec_interface\projet_blague\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-20 20:48:12,306 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:48:12,307 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-20 20:48:12,307 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:48:12,307 - app_routes - INFO - Vertex AI init réussi
+2025-05-20 20:48:12,308 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:48:12,308 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-20 20:48:12,332 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:48:12,335 - werkzeug - WARNING -  * Debugger is active!
+2025-05-20 20:48:12,346 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:48:12,348 - werkzeug - INFO -  * Debugger PIN: 696-146-085
+2025-05-20 20:49:01,084 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:49:01] "GET /data HTTP/1.1" 200 -
+2025-05-20 20:49:01,419 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:49:01] "GET /data HTTP/1.1" 200 -
+2025-05-20 20:49:07,213 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:49:07] "GET /status HTTP/1.1" 200 -
+2025-05-20 20:49:07,232 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:49:07] "GET /status HTTP/1.1" 200 -
+2025-05-20 20:49:09,535 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:49:09] "GET /joke HTTP/1.1" 200 -
+2025-05-20 20:49:09,547 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 20:49:09] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-05-20 23:18:15,510 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\main.py', reloading
+2025-05-20 23:18:15,510 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\main.py', reloading
+2025-05-20 23:18:15,784 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\utils.py', reloading
+2025-05-20 23:18:15,784 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\utils.py', reloading
+2025-05-20 23:18:15,864 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
+2025-05-20 23:18:15,866 - werkzeug - INFO -  * Detected change in 'C:\\Users\\duval\\OneDrive - ESME\\ESME\\Big data\\data tools\\blague_avec_interface\\projet_blague\\app\\routes.py', reloading
