@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Cloud - Accueil</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2rem;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-card h2 {
+            color: #2c3e50;
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .feature-card p {
+            color: #7f8c8d;
+            line-height: 1.6;
+        }
+
+        .api-endpoint {
+            background: #f8f9fa;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 0.9rem;
+            color: #34495e;
+            margin-top: 1rem;
+        }
+
+        .emoji {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 API Cloud</h1>
+            <p class="subtitle">Bienvenue dans votre interface de gestion</p>
+        </header>
+
+        <div class="features-grid">
+            <a href="/joke" class="feature-card">
+                <div class="emoji">🤣</div>
+                <h2>Générateur de Blagues</h2>
+                <p>Générez des blagues amusantes en utilisant l'IA de Google Vertex AI.</p>
+                <div class="api-endpoint">GET /joke</div>
+            </a>
+
+            <a href="/data" class="feature-card">
+                <div class="emoji">📊</div>
+                <h2>Gestion des Données</h2>
+                <p>Consultez et modifiez les données stockées dans Google Cloud Storage.</p>
+                <div class="api-endpoint">GET /data</div>
+                <div class="api-endpoint">POST /data</div>
+            </a>
+
+            <a href="/status" class="feature-card">
+                <div class="emoji">⏰</div>
+                <h2>Statut du Serveur</h2>
+                <p>Vérifiez l'état actuel du serveur et l'heure système.</p>
+                <div class="api-endpoint">GET /status</div>
+            </a>
+
+            <a href="/hello" class="feature-card">
+                <div class="emoji">👋</div>
+                <h2>Message de Bienvenue</h2>
+                <p>Accédez au message de bienvenue de l'API.</p>
+                <div class="api-endpoint">GET /hello</div>
+            </a>
+        </div>
+    </div>
+</body>
+</html> 

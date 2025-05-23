@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statut du Serveur - API Cloud</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 600px;
+            width: 90%;
+            position: relative;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            background: none;
+            border: none;
+            color: #7f8c8d;
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .back-button:hover {
+            transform: translateX(-5px);
+        }
+
+        .status-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+
+        .status-card {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 1.5rem 0;
+        }
+
+        .time-display {
+            font-size: 2rem;
+            color: #2c3e50;
+            font-family: monospace;
+            margin: 1rem 0;
+        }
+
+        .endpoint-info {
+            background: #2c3e50;
+            color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            font-family: monospace;
+            margin-top: 2rem;
+            display: inline-block;
+        }
+
+        .refresh-button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+
+        .refresh-button:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-button">←</a>
+        <div class="status-icon">⏰</div>
+        <h1>Statut du Serveur</h1>
+        <div class="status-card">
+            <div class="time-display" id="serverTime">Chargement...</div>
+        </div>
+        <button class="refresh-button" onclick="loadStatus()">Actualiser</button>
+        <div class="endpoint-info">GET /status</div>
+    </div>
+
+    <script>
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            return date.toLocaleString('fr-FR', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
+            });
+        }
+
+        async function loadStatus() {
+            try {
+                const response = await fetch('/status', {
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+                const data = await response.json();
+                document.getElementById('serverTime').textContent = formatDate(data.server_time);
+            } catch (error) {
+                document.getElementById('serverTime').textContent = "Erreur lors du chargement du statut";
+            }
+        }
+
+        loadStatus();
+        // Actualiser toutes les 5 secondes
+        setInterval(loadStatus, 5000);
+    </script>
+</body>
+</html> 

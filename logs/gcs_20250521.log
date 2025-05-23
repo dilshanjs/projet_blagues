@@ -1,0 +1,1760 @@
+2025-05-21 17:05:22,558 - gcs_operations - ERROR - Fichier de credentials non trouvé à : c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:05:22,561 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 17:05:22,562 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:05:22,565 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 17:05:22,566 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 17:05:23,728 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.4.253.98:8080
+2025-05-21 17:05:23,735 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:05:23,860 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:05:48,493 - gcs_operations - ERROR - Fichier de credentials non trouvé à : c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:05:48,494 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 17:05:48,495 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:05:48,496 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 17:05:48,497 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 17:05:48,597 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:05:48,628 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:05:49,195 - app_routes - INFO - Accès à la page d'accueil
+2025-05-21 17:05:49,220 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:05:49] "GET / HTTP/1.1" 200 -
+2025-05-21 17:05:53,184 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:05:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 17:05:54,213 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:05:54] "GET /joke HTTP/1.1" 200 -
+2025-05-21 17:05:54,531 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:05:54] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-05-21 17:05:58,916 - app_routes - INFO - Génération d'une blague
+2025-05-21 17:05:58,921 - app_routes - ERROR - Erreur lors de la génération de la blague: File C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json was not found.
+2025-05-21 17:05:58,924 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:05:58] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:05:59,868 - app_routes - INFO - Génération d'une blague
+2025-05-21 17:05:59,869 - app_routes - ERROR - Erreur lors de la génération de la blague: File C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json was not found.
+2025-05-21 17:05:59,873 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:05:59] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:06:00,814 - app_routes - INFO - Génération d'une blague
+2025-05-21 17:06:00,816 - app_routes - ERROR - Erreur lors de la génération de la blague: File C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json was not found.
+2025-05-21 17:06:00,818 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:06:00] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:06:01,502 - app_routes - INFO - Génération d'une blague
+2025-05-21 17:06:01,503 - app_routes - ERROR - Erreur lors de la génération de la blague: File C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json was not found.
+2025-05-21 17:06:01,509 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:06:01] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:06:09,875 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:06:09] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-05-21 17:06:09,923 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:06:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-21 17:07:35,889 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\main.py', reloading
+2025-05-21 17:07:37,591 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:08:08,871 - gcs_operations - ERROR - Fichier de credentials non trouvé à : c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:08:08,873 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 17:08:08,884 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:08:08,921 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 17:08:08,933 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 17:08:09,109 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:08:09,157 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:08:10,555 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:08:10] "GET /joke HTTP/1.1" 200 -
+2025-05-21 17:08:10,817 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:08:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-21 17:08:11,209 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:08:11] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-21 17:08:15,873 - app_routes - INFO - Génération d'une blague
+2025-05-21 17:08:15,883 - app_routes - ERROR - Erreur lors de la génération de la blague: File C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json was not found.
+2025-05-21 17:08:15,888 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:08:15] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:10:50,664 - app_routes - INFO - Génération d'une blague
+2025-05-21 17:10:50,673 - app_routes - ERROR - Erreur lors de la génération de la blague: File C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json was not found.
+2025-05-21 17:10:50,678 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:10:50] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:10:54,619 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:10:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-21 17:10:55,016 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:10:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-21 17:11:53,195 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:11:56,164 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:12:42,946 - gcs_operations - ERROR - Fichier de credentials non trouvé à : c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:12:42,947 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 17:12:42,948 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:12:42,949 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 17:12:42,951 - app_routes - INFO - Location: us-central1
+2025-05-21 17:12:42,953 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:12:42,954 - app_routes - ERROR - Le fichier de credentials n'existe pas: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:12:42,956 - app_routes - ERROR - Erreur lors de l'initialisation de Vertex AI: Credentials file not found: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:12:42,958 - app_routes - ERROR - Type d'erreur: FileNotFoundError
+2025-05-21 17:12:42,963 - app_routes - ERROR - Traceback complet: Traceback (most recent call last):
+  File "c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\app\routes.py", line 52, in <module>
+    raise FileNotFoundError(f"Credentials file not found: {credentials_path}")
+FileNotFoundError: Credentials file not found: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+
+2025-05-21 17:12:43,062 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:12:43,096 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:12:43,382 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:12:43] "GET /joke HTTP/1.1" 200 -
+2025-05-21 17:12:43,494 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:12:43] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-21 17:12:43,964 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:12:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-21 17:12:46,677 - app_routes - ERROR - Le modèle Gemini n'est pas initialisé
+2025-05-21 17:12:46,679 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:12:46] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:14:54,229 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:14:54,365 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:14:57,243 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:15:58,217 - gcs_operations - ERROR - Fichier de credentials non trouvé à : c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:15:58,218 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 17:15:58,220 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:15:58,221 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 17:15:58,225 - app_routes - INFO - Location: us-central1
+2025-05-21 17:15:58,226 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:15:58,228 - app_routes - ERROR - Le fichier de credentials n'existe pas: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:15:58,229 - app_routes - ERROR - Erreur lors de l'initialisation de Vertex AI: Credentials file not found: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:15:58,231 - app_routes - ERROR - Type d'erreur: FileNotFoundError
+2025-05-21 17:15:58,234 - app_routes - ERROR - Traceback complet: Traceback (most recent call last):
+  File "c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\app\routes.py", line 52, in <module>
+    raise FileNotFoundError(f"Credentials file not found: {credentials_path}")
+FileNotFoundError: Credentials file not found: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+
+2025-05-21 17:15:58,318 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:15:58,343 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:15:58,628 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:15:58] "GET /joke HTTP/1.1" 200 -
+2025-05-21 17:15:58,740 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:15:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-21 17:15:59,199 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:15:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-21 17:16:03,403 - app_routes - ERROR - Le modèle Gemini n'est pas initialisé
+2025-05-21 17:16:03,408 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:16:03] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:17:06,556 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:17:07,772 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:17:11,573 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:18:08,171 - gcs_operations - ERROR - Fichier de credentials non trouvé à : c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:18:08,174 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 17:18:08,176 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:18:08,178 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 17:18:08,180 - app_routes - INFO - Location: us-central1
+2025-05-21 17:18:08,181 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:18:08,184 - app_routes - ERROR - Le fichier de credentials n'existe pas: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:18:08,186 - app_routes - ERROR - Erreur lors de l'initialisation de Vertex AI: Credentials file not found: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:18:08,188 - app_routes - ERROR - Type d'erreur: FileNotFoundError
+2025-05-21 17:18:08,195 - app_routes - ERROR - Traceback complet: Traceback (most recent call last):
+  File "c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\app\routes.py", line 58, in <module>
+    raise FileNotFoundError(f"Credentials file not found: {credentials_path}")
+FileNotFoundError: Credentials file not found: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+
+2025-05-21 17:18:08,356 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:18:08,387 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:19:11,583 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:19:16,739 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:20:08,978 - gcs_operations - ERROR - Fichier de credentials non trouvé à : c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:20:08,980 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 17:20:08,981 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:20:08,983 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 17:20:08,984 - app_routes - INFO - Location: us-central1
+2025-05-21 17:20:08,986 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:20:08,991 - app_routes - INFO - Project ID dans les credentials: mini-projet-459407
+2025-05-21 17:20:08,994 - app_routes - INFO - Client Email dans les credentials: mini-projet@mini-projet-459407.iam.gserviceaccount.com
+2025-05-21 17:20:08,997 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:20:09,000 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 17:20:09,001 - app_routes - INFO - LOCATION: us-central1
+2025-05-21 17:20:09,002 - app_routes - INFO - Tentative d'initialisation de Vertex AI...
+2025-05-21 17:20:09,004 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 17:20:09,005 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 17:20:09,007 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 17:20:09,110 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:20:09,141 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:20:09,450 - app_routes - INFO - Génération d'une blague
+2025-05-21 17:20:09,453 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 17:20:09,466 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:20:09] "GET /joke HTTP/1.1" 200 -
+2025-05-21 17:20:10,255 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:20:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-21 17:20:10,521 - app_routes - ERROR - Erreur lors de l'appel au modèle: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+2025-05-21 17:20:10,523 - app_routes - ERROR - Type d'erreur: Unauthenticated
+2025-05-21 17:20:10,540 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Martin Anres\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\google\\cloud\\aiplatform_v1beta1\\services\\prediction_service\\client.py', reloading
+2025-05-21 17:20:10,555 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Martin Anres\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\google\\api_core\\gapic_v1\\method.py', reloading
+2025-05-21 17:20:10,558 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Martin Anres\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\google\\api_core\\grpc_helpers.py', reloading
+2025-05-21 17:20:10,568 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Martin Anres\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\grpc\\_interceptor.py', reloading
+2025-05-21 17:20:10,587 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Martin Anres\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\grpc\\_channel.py', reloading
+2025-05-21 17:20:10,608 - app_routes - ERROR - Traceback complet: Traceback (most recent call last):
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 76, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 277, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 332, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 440, in result
+    raise self
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 315, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1198, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1006, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.178.138:443 {created_time:"2025-05-21T15:20:10.4317995+00:00", grpc_status:16, grpc_message:"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\app\routes.py", line 164, in get_joke
+    response = joke_model.generate_content("Tell me a joke")
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 695, in generate_content
+    return self._generate_content(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        contents=contents,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        labels=labels,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 820, in _generate_content
+    gapic_response = self._prediction_client.generate_content(request=request)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\cloud\aiplatform_v1beta1\services\prediction_service\client.py", line 2396, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.Unauthenticated: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+
+2025-05-21 17:20:10,683 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:20:10] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:20:12,344 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:20:33,869 - gcs_operations - ERROR - Fichier de credentials non trouvé à : c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:20:33,870 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 17:20:33,871 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:20:33,872 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 17:20:33,872 - app_routes - INFO - Location: us-central1
+2025-05-21 17:20:33,873 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:20:33,876 - app_routes - INFO - Project ID dans les credentials: mini-projet-459407
+2025-05-21 17:20:33,877 - app_routes - INFO - Client Email dans les credentials: mini-projet@mini-projet-459407.iam.gserviceaccount.com
+2025-05-21 17:20:33,878 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:20:33,882 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 17:20:33,882 - app_routes - INFO - LOCATION: us-central1
+2025-05-21 17:20:33,883 - app_routes - INFO - Tentative d'initialisation de Vertex AI...
+2025-05-21 17:20:33,884 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 17:20:33,885 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 17:20:33,886 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 17:20:33,973 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:20:34,003 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:20:34,305 - app_routes - INFO - Génération d'une blague
+2025-05-21 17:20:34,306 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 17:20:34,659 - app_routes - ERROR - Erreur lors de l'appel au modèle: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+2025-05-21 17:20:34,660 - app_routes - ERROR - Type d'erreur: Unauthenticated
+2025-05-21 17:20:34,677 - app_routes - ERROR - Traceback complet: Traceback (most recent call last):
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 76, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 277, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 332, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 440, in result
+    raise self
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 315, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1198, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1006, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.178.138:443 {grpc_message:"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.", grpc_status:16, created_time:"2025-05-21T15:20:34.5984568+00:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\app\routes.py", line 164, in get_joke
+    response = joke_model.generate_content("Tell me a joke")
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 695, in generate_content
+    return self._generate_content(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        contents=contents,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        labels=labels,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 820, in _generate_content
+    gapic_response = self._prediction_client.generate_content(request=request)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\cloud\aiplatform_v1beta1\services\prediction_service\client.py", line 2396, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.Unauthenticated: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+
+2025-05-21 17:20:34,711 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:20:34] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:21:28,391 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:21:28,467 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:21:32,345 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:22:02,219 - gcs_operations - ERROR - Fichier de credentials non trouvé à : c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:22:02,221 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 17:22:02,222 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:22:02,223 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 17:22:02,223 - app_routes - INFO - Location: europe-west1
+2025-05-21 17:22:02,224 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:22:02,226 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:22:02,227 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 17:22:02,228 - app_routes - INFO - LOCATION: us-central1
+2025-05-21 17:22:02,229 - app_routes - INFO - Tentative d'initialisation de Vertex AI...
+2025-05-21 17:22:02,231 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 17:22:02,232 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 17:22:02,238 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 17:22:02,327 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:22:02,354 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:23:39,067 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:23:39,133 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:23:41,570 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:24:20,038 - gcs_operations - ERROR - Fichier de credentials non trouvé à : c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:24:20,040 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 17:24:20,041 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:24:20,042 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 17:24:20,043 - app_routes - INFO - Location: us-central1
+2025-05-21 17:24:20,044 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:24:20,045 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:24:20,048 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 17:24:20,049 - app_routes - INFO - LOCATION: us-central1
+2025-05-21 17:24:20,049 - app_routes - INFO - Tentative d'initialisation de Vertex AI...
+2025-05-21 17:24:20,050 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 17:24:20,051 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 17:24:20,054 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 17:24:20,138 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:24:20,161 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:24:26,829 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:24:26,850 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:24:29,129 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:25:01,900 - gcs_operations - ERROR - Fichier de credentials non trouvé à : c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:25:01,902 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 17:25:01,903 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:25:01,905 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 17:25:01,906 - app_routes - INFO - Location: europe-west1
+2025-05-21 17:25:01,909 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:25:01,911 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:25:01,913 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 17:25:01,915 - app_routes - INFO - LOCATION: us-central1
+2025-05-21 17:25:01,917 - app_routes - INFO - Tentative d'initialisation de Vertex AI...
+2025-05-21 17:25:01,919 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 17:25:01,920 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 17:25:01,923 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 17:25:02,076 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:25:02,106 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:28:50,384 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:28:50] "GET /joke HTTP/1.1" 200 -
+2025-05-21 17:28:50,942 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:28:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-21 17:28:52,289 - app_routes - INFO - Génération d'une blague
+2025-05-21 17:28:52,290 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 17:28:52,687 - app_routes - ERROR - Erreur lors de l'appel au modèle: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+2025-05-21 17:28:52,690 - app_routes - ERROR - Type d'erreur: Unauthenticated
+2025-05-21 17:28:52,734 - app_routes - ERROR - Traceback complet: Traceback (most recent call last):
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 76, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 277, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 332, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 440, in result
+    raise self
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 315, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1198, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1006, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:216.58.214.170:443 {created_time:"2025-05-21T15:28:52.5764545+00:00", grpc_status:16, grpc_message:"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\app\routes.py", line 165, in get_joke
+    response = joke_model.generate_content("Tell me a joke")
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 695, in generate_content
+    return self._generate_content(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        contents=contents,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        labels=labels,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 820, in _generate_content
+    gapic_response = self._prediction_client.generate_content(request=request)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\cloud\aiplatform_v1beta1\services\prediction_service\client.py", line 2396, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.Unauthenticated: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+
+2025-05-21 17:28:52,768 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:28:52] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:28:54,672 - app_routes - INFO - Génération d'une blague
+2025-05-21 17:28:54,673 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 17:28:54,787 - app_routes - ERROR - Erreur lors de l'appel au modèle: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+2025-05-21 17:28:54,788 - app_routes - ERROR - Type d'erreur: Unauthenticated
+2025-05-21 17:28:54,798 - app_routes - ERROR - Traceback complet: Traceback (most recent call last):
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 76, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 277, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 332, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 440, in result
+    raise self
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 315, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1198, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1006, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:216.58.214.170:443 {grpc_message:"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.", grpc_status:16, created_time:"2025-05-21T15:28:54.7071159+00:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\app\routes.py", line 165, in get_joke
+    response = joke_model.generate_content("Tell me a joke")
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 695, in generate_content
+    return self._generate_content(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        contents=contents,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        labels=labels,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 820, in _generate_content
+    gapic_response = self._prediction_client.generate_content(request=request)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\cloud\aiplatform_v1beta1\services\prediction_service\client.py", line 2396, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.Unauthenticated: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+
+2025-05-21 17:28:54,832 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:28:54] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:28:58,164 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:28:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-21 17:28:58,552 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:28:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-21 17:30:09,674 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:30:11,857 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:30:44,545 - gcs_operations - ERROR - Fichier de credentials non trouvé à : c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:30:44,553 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 17:30:44,555 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:30:44,556 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 17:30:44,557 - app_routes - INFO - Location: europe-west1
+2025-05-21 17:30:44,558 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:30:44,560 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:30:44,561 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 17:30:44,562 - app_routes - INFO - LOCATION: us-central1
+2025-05-21 17:30:44,569 - app_routes - INFO - Tentative d'initialisation de Vertex AI...
+2025-05-21 17:30:44,571 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 17:30:44,572 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 17:30:44,575 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 17:30:44,666 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:30:44,689 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:31:43,439 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:31:46,686 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:32:24,845 - gcs_operations - ERROR - Fichier de credentials non trouvé à : c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:32:24,847 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 17:32:24,855 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:32:24,856 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 17:32:24,856 - app_routes - INFO - Location: europe-west1
+2025-05-21 17:32:24,857 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:32:24,859 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:32:24,860 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 17:32:24,860 - app_routes - INFO - LOCATION: us-central1
+2025-05-21 17:32:24,861 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 17:32:24,863 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 17:32:24,863 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 17:32:24,867 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 17:32:24,960 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:32:24,985 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:32:25,296 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:32:25] "GET /joke HTTP/1.1" 200 -
+2025-05-21 17:32:25,746 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:32:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-21 17:32:31,919 - app_routes - INFO - Génération d'une blague
+2025-05-21 17:32:31,920 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 17:32:32,229 - app_routes - ERROR - Erreur lors de l'appel au modèle: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+2025-05-21 17:32:32,231 - app_routes - ERROR - Type d'erreur: Unauthenticated
+2025-05-21 17:32:32,257 - app_routes - ERROR - Traceback complet: Traceback (most recent call last):
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 76, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 277, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 332, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 440, in result
+    raise self
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 315, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1198, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1006, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:216.58.214.170:443 {created_time:"2025-05-21T15:32:32.1532016+00:00", grpc_status:16, grpc_message:"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\app\routes.py", line 176, in get_joke
+    response = joke_model.generate_content("Tell me a joke")
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 695, in generate_content
+    return self._generate_content(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        contents=contents,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        labels=labels,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 820, in _generate_content
+    gapic_response = self._prediction_client.generate_content(request=request)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\cloud\aiplatform_v1beta1\services\prediction_service\client.py", line 2396, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.Unauthenticated: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+
+2025-05-21 17:32:32,292 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:32:32] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:33:17,803 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:33:17,849 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:33:20,898 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:33:50,495 - gcs_operations - ERROR - Fichier de credentials non trouvé à : c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:33:50,497 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 17:33:50,498 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:33:50,499 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 17:33:50,500 - app_routes - INFO - Location: europe-west1
+2025-05-21 17:33:50,505 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:33:50,507 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:33:50,509 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 17:33:50,510 - app_routes - INFO - LOCATION: europe-west1
+2025-05-21 17:33:50,511 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 17:33:50,513 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 17:33:50,514 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 17:33:50,517 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 17:33:50,633 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:33:50,686 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:34:28,556 - app_routes - INFO - Génération d'une blague
+2025-05-21 17:34:28,558 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 17:34:28,915 - app_routes - ERROR - Erreur lors de l'appel au modèle: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+2025-05-21 17:34:28,917 - app_routes - ERROR - Type d'erreur: Unauthenticated
+2025-05-21 17:34:28,938 - app_routes - ERROR - Traceback complet: Traceback (most recent call last):
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 76, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 277, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 332, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 440, in result
+    raise self
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 315, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1198, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1006, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:216.58.214.170:443 {grpc_message:"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.", grpc_status:16, created_time:"2025-05-21T15:34:28.8397479+00:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\app\routes.py", line 177, in get_joke
+    response = joke_model.generate_content("Tell me a joke")
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 695, in generate_content
+    return self._generate_content(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        contents=contents,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        labels=labels,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 820, in _generate_content
+    gapic_response = self._prediction_client.generate_content(request=request)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\cloud\aiplatform_v1beta1\services\prediction_service\client.py", line 2396, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.Unauthenticated: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+
+2025-05-21 17:34:28,981 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:34:28] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:35:00,010 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:35:00,182 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:35:03,128 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:35:32,559 - gcs_operations - ERROR - Fichier de credentials non trouvé à : c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:35:32,562 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 17:35:32,565 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:35:32,566 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 17:35:32,567 - app_routes - INFO - Location: europe-west1
+2025-05-21 17:35:32,568 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:35:32,569 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:35:32,573 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 17:35:32,576 - app_routes - INFO - LOCATION: europe-west1
+2025-05-21 17:35:32,577 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 17:35:32,578 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 17:35:32,580 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 17:35:32,583 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 17:35:32,660 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:35:32,681 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:36:04,505 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:36:04,669 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:36:07,398 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:36:38,079 - gcs_operations - ERROR - Fichier de credentials non trouvé à : c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 17:36:38,081 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 17:36:38,082 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:36:38,085 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 17:36:38,086 - app_routes - INFO - Location: europe-west1
+2025-05-21 17:36:38,087 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:36:38,089 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:36:38,094 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 17:36:38,095 - app_routes - INFO - LOCATION: europe-west1
+2025-05-21 17:36:38,096 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 17:36:38,097 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 17:36:38,098 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 17:36:38,101 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 17:36:38,248 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:36:38,283 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:36:38,588 - app_routes - INFO - Génération d'une blague
+2025-05-21 17:36:38,594 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 17:36:39,149 - app_routes - ERROR - Erreur lors de l'appel au modèle: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+2025-05-21 17:36:39,152 - app_routes - ERROR - Type d'erreur: Unauthenticated
+2025-05-21 17:36:39,183 - app_routes - ERROR - Traceback complet: Traceback (most recent call last):
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 76, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 277, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 332, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 440, in result
+    raise self
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 315, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1198, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1006, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:216.58.214.170:443 {grpc_message:"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.", grpc_status:16, created_time:"2025-05-21T15:36:39.0432383+00:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\app\routes.py", line 196, in get_joke
+    response = joke_model.generate_content("Tell me a joke")
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 695, in generate_content
+    return self._generate_content(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        contents=contents,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        labels=labels,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 820, in _generate_content
+    gapic_response = self._prediction_client.generate_content(request=request)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\cloud\aiplatform_v1beta1\services\prediction_service\client.py", line 2396, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.Unauthenticated: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+
+2025-05-21 17:36:39,217 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:36:39] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:37:15,336 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\utils.py', reloading
+2025-05-21 17:37:15,369 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\utils.py', reloading
+2025-05-21 17:37:18,145 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:38:10,535 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:38:10,536 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 17:38:10,537 - app_routes - INFO - Location: europe-west1
+2025-05-21 17:38:10,538 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:38:10,539 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:38:10,541 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 17:38:10,549 - app_routes - INFO - LOCATION: europe-west1
+2025-05-21 17:38:10,550 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 17:38:10,551 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 17:38:10,552 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 17:38:10,555 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 17:38:10,664 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:38:10,694 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:38:11,101 - app_routes - INFO - Génération d'une blague
+2025-05-21 17:38:11,103 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 17:38:11,452 - app_routes - ERROR - Erreur lors de l'appel au modèle: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+2025-05-21 17:38:11,454 - app_routes - ERROR - Type d'erreur: Unauthenticated
+2025-05-21 17:38:11,481 - app_routes - ERROR - Traceback complet: Traceback (most recent call last):
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 76, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 277, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 332, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 440, in result
+    raise self
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 315, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1198, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1006, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:216.58.214.170:443 {created_time:"2025-05-21T15:38:11.3713102+00:00", grpc_status:16, grpc_message:"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\app\routes.py", line 196, in get_joke
+    response = joke_model.generate_content("Tell me a joke")
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 695, in generate_content
+    return self._generate_content(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        contents=contents,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        labels=labels,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 820, in _generate_content
+    gapic_response = self._prediction_client.generate_content(request=request)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\cloud\aiplatform_v1beta1\services\prediction_service\client.py", line 2396, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.Unauthenticated: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+
+2025-05-21 17:38:11,528 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:38:11] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:39:10,424 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\utils.py', reloading
+2025-05-21 17:39:10,458 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\utils.py', reloading
+2025-05-21 17:39:11,509 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\utils.py', reloading
+2025-05-21 17:39:13,259 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:39:40,120 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:39:40,121 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 17:39:40,121 - app_routes - INFO - Location: europe-west1
+2025-05-21 17:39:40,122 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:39:40,124 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:39:40,126 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 17:39:40,126 - app_routes - INFO - LOCATION: europe-west1
+2025-05-21 17:39:40,127 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 17:39:40,133 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 17:39:40,134 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 17:39:40,136 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 17:39:40,227 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:39:40,246 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:39:40,490 - app_routes - INFO - Génération d'une blague
+2025-05-21 17:39:40,496 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 17:39:40,829 - app_routes - ERROR - Erreur lors de l'appel au modèle: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+2025-05-21 17:39:40,830 - app_routes - ERROR - Type d'erreur: Unauthenticated
+2025-05-21 17:39:40,848 - app_routes - ERROR - Traceback complet: Traceback (most recent call last):
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 76, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 277, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 332, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 440, in result
+    raise self
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 315, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1198, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1006, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:172.217.20.202:443 {created_time:"2025-05-21T15:39:40.7521399+00:00", grpc_status:16, grpc_message:"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\app\routes.py", line 196, in get_joke
+    response = joke_model.generate_content("Tell me a joke")
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 695, in generate_content
+    return self._generate_content(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        contents=contents,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        labels=labels,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 820, in _generate_content
+    gapic_response = self._prediction_client.generate_content(request=request)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\cloud\aiplatform_v1beta1\services\prediction_service\client.py", line 2396, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.Unauthenticated: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+
+2025-05-21 17:39:40,872 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:39:40] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:40:17,150 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:40:19,225 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:40:41,428 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:40:41,429 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 17:40:41,431 - app_routes - INFO - Location: europe-west1
+2025-05-21 17:40:41,435 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:40:41,437 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:40:41,438 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 17:40:41,439 - app_routes - INFO - LOCATION: europe-west1
+2025-05-21 17:40:41,489 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 17:40:41,493 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 17:40:41,494 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 17:40:41,505 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 17:40:41,582 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:40:41,600 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:41:05,783 - app_routes - INFO - Génération d'une blague
+2025-05-21 17:41:05,785 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 17:41:05,988 - app_routes - ERROR - Erreur lors de l'appel au modèle: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+2025-05-21 17:41:05,989 - app_routes - ERROR - Type d'erreur: Unauthenticated
+2025-05-21 17:41:06,009 - app_routes - ERROR - Traceback complet: Traceback (most recent call last):
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 76, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 277, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 332, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 440, in result
+    raise self
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 315, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1198, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1006, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:172.217.20.202:443 {grpc_message:"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.", grpc_status:16, created_time:"2025-05-21T15:41:05.9345375+00:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\app\routes.py", line 207, in get_joke
+    response = joke_model.generate_content("Tell me a joke")
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 695, in generate_content
+    return self._generate_content(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        contents=contents,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        labels=labels,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 820, in _generate_content
+    gapic_response = self._prediction_client.generate_content(request=request)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\cloud\aiplatform_v1beta1\services\prediction_service\client.py", line 2396, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.Unauthenticated: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+
+2025-05-21 17:41:06,037 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:41:06] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:44:14,589 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:44:15,713 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:44:16,819 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 17:44:40,525 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 17:44:40,527 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 17:44:40,527 - app_routes - INFO - Location: europe-west1
+2025-05-21 17:44:40,528 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:44:40,528 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 17:44:40,529 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 17:44:40,530 - app_routes - INFO - LOCATION: europe-west1
+2025-05-21 17:44:40,531 - app_routes - INFO - GOOGLE_CLOUD_LOCATION: europe-west1
+2025-05-21 17:44:40,531 - app_routes - INFO - CLOUD_ML_REGION: europe-west1
+2025-05-21 17:44:40,534 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 17:44:40,535 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 17:44:40,535 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 17:44:40,537 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 17:44:40,618 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 17:44:40,634 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 17:50:01,195 - app_routes - INFO - Génération d'une blague
+2025-05-21 17:50:01,196 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 17:50:01,506 - app_routes - ERROR - Erreur lors de l'appel au modèle: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+2025-05-21 17:50:01,507 - app_routes - ERROR - Type d'erreur: Unauthenticated
+2025-05-21 17:50:01,530 - app_routes - ERROR - Traceback complet: Traceback (most recent call last):
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 76, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 277, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 332, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 440, in result
+    raise self
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 315, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1198, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1006, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.178.138:443 {grpc_message:"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.", grpc_status:16, created_time:"2025-05-21T15:50:01.4527962+00:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\app\routes.py", line 215, in get_joke
+    response = joke_model.generate_content("Tell me a joke")
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 695, in generate_content
+    return self._generate_content(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        contents=contents,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        labels=labels,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 820, in _generate_content
+    gapic_response = self._prediction_client.generate_content(request=request)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\cloud\aiplatform_v1beta1\services\prediction_service\client.py", line 2396, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.Unauthenticated: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+
+2025-05-21 17:50:01,553 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 17:50:01] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 17:56:48,771 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:56:48,878 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 17:56:52,835 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 18:12:13,139 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 18:12:13,144 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 18:12:13,146 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 18:12:13,147 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 18:12:13,149 - app_routes - INFO - Location: europe-west1
+2025-05-21 18:12:13,156 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:12:13,158 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:12:13,163 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 18:12:13,165 - app_routes - INFO - LOCATION: europe-west1
+2025-05-21 18:12:13,168 - app_routes - INFO - GOOGLE_CLOUD_LOCATION: europe-west1
+2025-05-21 18:12:13,170 - app_routes - INFO - CLOUD_ML_REGION: europe-west1
+2025-05-21 18:12:13,175 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 18:12:13,176 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 18:12:13,178 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 18:12:13,180 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 18:12:14,193 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.4.253.98:8080
+2025-05-21 18:12:14,195 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 18:12:14,269 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 18:12:32,193 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 18:12:32,195 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 18:12:32,197 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 18:12:32,198 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 18:12:32,203 - app_routes - INFO - Location: europe-west1
+2025-05-21 18:12:32,205 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:12:32,208 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:12:32,211 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 18:12:32,213 - app_routes - INFO - LOCATION: europe-west1
+2025-05-21 18:12:32,215 - app_routes - INFO - GOOGLE_CLOUD_LOCATION: europe-west1
+2025-05-21 18:12:32,221 - app_routes - INFO - CLOUD_ML_REGION: europe-west1
+2025-05-21 18:12:32,231 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 18:12:32,237 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 18:12:32,240 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 18:12:32,242 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 18:12:32,322 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 18:12:32,346 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 18:13:22,860 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:13:22] "GET /joke HTTP/1.1" 200 -
+2025-05-21 18:13:23,457 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:13:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-21 18:13:26,548 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:13:26,549 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:13:27,195 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:13:27,196 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:13:27,197 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:13:27] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:13:29,023 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:13:29,024 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:13:29,367 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:13:29,369 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:13:29,370 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:13:29] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:13:31,487 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:13:31,488 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:13:31,767 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:13:31,769 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:13:31,772 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:13:31] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:13:32,622 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:13:32,623 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:13:32,906 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:13:32,909 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:13:32,911 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:13:32] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:13:33,920 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:13:33,921 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:13:34,210 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:13:34,211 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:13:34,212 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:13:34] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:13:35,386 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:13:35,386 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:13:35,742 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:13:35,746 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:13:35,747 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:13:35] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:14:41,734 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 18:14:41,810 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 18:14:43,733 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 18:15:06,083 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 18:15:06,085 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 18:15:06,094 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 18:15:06,096 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 18:15:06,097 - app_routes - INFO - Location: europe-west1
+2025-05-21 18:15:06,098 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:15:06,100 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:15:06,102 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 18:15:06,103 - app_routes - INFO - LOCATION: europe-west1
+2025-05-21 18:15:06,104 - app_routes - INFO - GOOGLE_CLOUD_LOCATION: europe-west1
+2025-05-21 18:15:06,108 - app_routes - INFO - CLOUD_ML_REGION: europe-west1
+2025-05-21 18:15:06,113 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 18:15:06,114 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 18:15:06,115 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 18:15:06,117 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 18:15:06,194 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 18:15:06,221 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 18:15:39,302 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:15:39,303 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:15:39,998 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:15:39,999 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:15:40,000 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:15:40] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:15:42,597 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:15:42,597 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:15:43,029 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:15:43,031 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:15:43,032 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:15:43] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:15:44,441 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:15:44,442 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:15:44,933 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:15:44,934 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:15:44,934 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:15:44] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:15:46,093 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:15:46,094 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:15:46,506 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:15:46,510 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:15:46,513 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:15:46] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:16:18,455 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 18:16:18,501 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 18:16:20,393 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 18:16:40,826 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 18:16:40,828 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 18:16:40,829 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 18:16:40,830 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 18:16:40,832 - app_routes - INFO - Location: europe-west1
+2025-05-21 18:16:40,833 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:16:40,836 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:16:40,841 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 18:16:40,845 - app_routes - INFO - LOCATION: europe-west1
+2025-05-21 18:16:40,846 - app_routes - INFO - GOOGLE_CLOUD_LOCATION: europe-west1
+2025-05-21 18:16:40,848 - app_routes - INFO - CLOUD_ML_REGION: europe-west1
+2025-05-21 18:16:40,853 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 18:16:40,854 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 18:16:40,855 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 18:16:40,858 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 18:16:40,917 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 18:16:40,939 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 18:16:41,139 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:16:41,142 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:16:41,844 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:16:41,846 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:16:41,848 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:16:41] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:16:46,057 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:16:46,059 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:16:46,763 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:16:46,765 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:16:46,768 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:16:46] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:16:48,779 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:16:48,780 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:16:49,315 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:16:49,316 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:16:49,317 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:16:49] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:17:42,405 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 18:17:42,604 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 18:17:43,986 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 18:17:46,778 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 18:18:07,208 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 18:18:07,212 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 18:18:07,215 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 18:18:07,217 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 18:18:07,219 - app_routes - INFO - Location: europe-west1
+2025-05-21 18:18:07,221 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:18:07,222 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:18:07,224 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 18:18:07,225 - app_routes - INFO - LOCATION: europe-west1
+2025-05-21 18:18:07,228 - app_routes - INFO - GOOGLE_CLOUD_LOCATION: europe-west1
+2025-05-21 18:18:07,232 - app_routes - INFO - CLOUD_ML_REGION: europe-west1
+2025-05-21 18:18:07,237 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 18:18:07,238 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 18:18:07,239 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 18:18:07,241 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 18:18:07,332 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 18:18:07,349 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 18:18:07,540 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:18:07,542 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:18:08,919 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:18:08,920 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:18:08,921 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:18:08] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:18:20,267 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:18:20,278 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:18:20,707 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:18:20,708 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:18:20,710 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:18:20] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:18:26,936 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:18:26,937 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:18:27,696 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:18:27,697 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:18:27,699 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:18:27] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:18:35,904 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:18:35,905 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:18:36,446 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:18:36,447 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:18:36,447 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:18:36] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:18:42,093 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:18:42,094 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:18:42,891 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:18:42,892 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:18:42,896 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:18:42] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:20:09,244 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 18:20:11,591 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 18:20:35,234 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 18:20:35,241 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 18:20:35,242 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 18:20:35,243 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 18:20:35,244 - app_routes - INFO - Location: europe-west1
+2025-05-21 18:20:35,245 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:20:35,253 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:20:35,255 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 18:20:35,256 - app_routes - INFO - LOCATION: europe-west1
+2025-05-21 18:20:35,257 - app_routes - INFO - GOOGLE_CLOUD_LOCATION: europe-west1
+2025-05-21 18:20:35,259 - app_routes - INFO - CLOUD_ML_REGION: europe-west1
+2025-05-21 18:20:35,265 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 18:20:35,269 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 18:20:35,271 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 18:20:35,272 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 18:20:35,354 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 18:20:35,375 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 18:22:43,735 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 18:22:45,804 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 18:23:09,161 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 18:23:09,164 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 18:23:09,167 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 18:23:09,173 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 18:23:09,176 - app_routes - INFO - Location: europe-west1
+2025-05-21 18:23:09,178 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:23:09,179 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:23:09,181 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 18:23:09,181 - app_routes - INFO - LOCATION: europe-west1
+2025-05-21 18:23:09,182 - app_routes - INFO - GOOGLE_CLOUD_LOCATION: europe-west1
+2025-05-21 18:23:09,184 - app_routes - INFO - CLOUD_ML_REGION: europe-west1
+2025-05-21 18:23:09,191 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 18:23:09,192 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 18:23:09,194 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 18:23:09,195 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 18:23:09,255 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 18:23:09,274 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 18:23:09,466 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:23:09,469 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:23:09,829 - app_routes - ERROR - Erreur lors de l'appel au modèle: 400 Unable to submit request because it has a topK value of 50 but the supported range is from 1 (inclusive) to 41 (exclusive). Update the value and try again.
+2025-05-21 18:23:09,831 - app_routes - ERROR - Type d'erreur: InvalidArgument
+2025-05-21 18:23:09,842 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Martin Anres\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\google\\cloud\\aiplatform_v1beta1\\services\\prediction_service\\client.py', reloading
+2025-05-21 18:23:09,844 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Martin Anres\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\google\\api_core\\gapic_v1\\method.py', reloading
+2025-05-21 18:23:09,847 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Martin Anres\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\google\\api_core\\grpc_helpers.py', reloading
+2025-05-21 18:23:09,849 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Martin Anres\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\grpc\\_interceptor.py', reloading
+2025-05-21 18:23:09,858 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Martin Anres\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\grpc\\_channel.py', reloading
+2025-05-21 18:23:09,858 - app_routes - ERROR - Traceback complet: Traceback (most recent call last):
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 76, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 277, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 332, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 440, in result
+    raise self
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 315, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1198, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1006, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.INVALID_ARGUMENT
+	details = "Unable to submit request because it has a topK value of 50 but the supported range is from 1 (inclusive) to 41 (exclusive). Update the value and try again."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.179.106:443 {grpc_message:"Unable to submit request because it has a topK value of 50 but the supported range is from 1 (inclusive) to 41 (exclusive). Update the value and try again.", grpc_status:3, created_time:"2025-05-21T16:23:09.7737789+00:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\app\routes.py", line 251, in get_joke
+    response = joke_model.generate_content(
+        prompt,
+        generation_config=generation_config
+    )
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 695, in generate_content
+    return self._generate_content(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        contents=contents,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        labels=labels,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 820, in _generate_content
+    gapic_response = self._prediction_client.generate_content(request=request)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\cloud\aiplatform_v1beta1\services\prediction_service\client.py", line 2396, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 Unable to submit request because it has a topK value of 50 but the supported range is from 1 (inclusive) to 41 (exclusive). Update the value and try again.
+
+2025-05-21 18:23:09,893 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:23:09] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 18:23:11,670 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 18:23:30,341 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 18:23:30,342 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 18:23:30,343 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 18:23:30,344 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 18:23:30,344 - app_routes - INFO - Location: europe-west1
+2025-05-21 18:23:30,345 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:23:30,346 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:23:30,346 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 18:23:30,347 - app_routes - INFO - LOCATION: europe-west1
+2025-05-21 18:23:30,350 - app_routes - INFO - GOOGLE_CLOUD_LOCATION: europe-west1
+2025-05-21 18:23:30,355 - app_routes - INFO - CLOUD_ML_REGION: europe-west1
+2025-05-21 18:23:30,360 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 18:23:30,362 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 18:23:30,363 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 18:23:30,365 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 18:23:30,428 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 18:23:30,445 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 18:23:30,666 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:23:30,667 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:23:30,905 - app_routes - ERROR - Erreur lors de l'appel au modèle: 400 Unable to submit request because it has a topK value of 50 but the supported range is from 1 (inclusive) to 41 (exclusive). Update the value and try again.
+2025-05-21 18:23:30,906 - app_routes - ERROR - Type d'erreur: InvalidArgument
+2025-05-21 18:23:30,923 - app_routes - ERROR - Traceback complet: Traceback (most recent call last):
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 76, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 277, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 332, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 440, in result
+    raise self
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_interceptor.py", line 315, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1198, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\grpc\_channel.py", line 1006, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.INVALID_ARGUMENT
+	details = "Unable to submit request because it has a topK value of 50 but the supported range is from 1 (inclusive) to 41 (exclusive). Update the value and try again."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.179.106:443 {created_time:"2025-05-21T16:23:30.8611733+00:00", grpc_status:3, grpc_message:"Unable to submit request because it has a topK value of 50 but the supported range is from 1 (inclusive) to 41 (exclusive). Update the value and try again."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\app\routes.py", line 251, in get_joke
+    response = joke_model.generate_content(
+        prompt,
+        generation_config=generation_config
+    )
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 695, in generate_content
+    return self._generate_content(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        contents=contents,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        labels=labels,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\vertexai\generative_models\_generative_models.py", line 820, in _generate_content
+    gapic_response = self._prediction_client.generate_content(request=request)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\cloud\aiplatform_v1beta1\services\prediction_service\client.py", line 2396, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Martin Anres\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 Unable to submit request because it has a topK value of 50 but the supported range is from 1 (inclusive) to 41 (exclusive). Update the value and try again.
+
+2025-05-21 18:23:30,945 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:23:30] "[35m[1mGET /api/joke HTTP/1.1[0m" 500 -
+2025-05-21 18:24:32,980 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 18:24:34,572 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 18:24:56,477 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 18:24:56,480 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 18:24:56,484 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 18:24:56,486 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 18:24:56,490 - app_routes - INFO - Location: europe-west1
+2025-05-21 18:24:56,492 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:24:56,494 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:24:56,496 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 18:24:56,497 - app_routes - INFO - LOCATION: europe-west1
+2025-05-21 18:24:56,498 - app_routes - INFO - GOOGLE_CLOUD_LOCATION: europe-west1
+2025-05-21 18:24:56,501 - app_routes - INFO - CLOUD_ML_REGION: europe-west1
+2025-05-21 18:24:56,514 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 18:24:56,515 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 18:24:56,516 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 18:24:56,527 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 18:24:56,600 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 18:24:56,626 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 18:24:56,897 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:24:56,898 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:24:57,892 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:24:57,895 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:24:57,896 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:24:57] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:25:08,476 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:25:08,477 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:25:09,027 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:25:09,029 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:25:09,030 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:25:09] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:25:16,050 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:25:16,052 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:25:16,878 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:25:16,880 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:25:16,881 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:25:16] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:26:20,581 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 18:26:20,676 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 18:26:22,665 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 18:26:43,286 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 18:26:43,288 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 18:26:43,289 - app_routes - INFO - Initialisation de Vertex AI
+2025-05-21 18:26:43,289 - app_routes - INFO - Project ID: mini-projet-459407
+2025-05-21 18:26:43,292 - app_routes - INFO - Location: europe-west1
+2025-05-21 18:26:43,295 - app_routes - INFO - Credentials path: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:26:43,296 - app_routes - INFO - GOOGLE_APPLICATION_CREDENTIALS: C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\mini-projet-459407-5eeaa3b13b0e.json
+2025-05-21 18:26:43,297 - app_routes - INFO - PROJECT_ID: mini-projet-459407
+2025-05-21 18:26:43,298 - app_routes - INFO - LOCATION: europe-west1
+2025-05-21 18:26:43,298 - app_routes - INFO - GOOGLE_CLOUD_LOCATION: europe-west1
+2025-05-21 18:26:43,299 - app_routes - INFO - CLOUD_ML_REGION: europe-west1
+2025-05-21 18:26:43,304 - app_routes - INFO - Tentative d'initialisation de Vertex AI avec la région europe-west1...
+2025-05-21 18:26:43,309 - app_routes - INFO - Vertex AI init réussi
+2025-05-21 18:26:43,313 - app_routes - INFO - Tentative de chargement du modèle gemini-2.0-flash-001...
+2025-05-21 18:26:43,315 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 18:26:43,374 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 18:26:43,390 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 18:26:43,587 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:26:43,587 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:26:44,298 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:26:44,301 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:26:44,304 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:26:44] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:26:50,413 - app_routes - INFO - Génération d'une blague
+2025-05-21 18:26:50,414 - app_routes - INFO - Envoi de la requête au modèle Gemini
+2025-05-21 18:26:51,099 - app_routes - INFO - Réponse reçue du modèle
+2025-05-21 18:26:51,100 - app_routes - INFO - Blague générée avec succès
+2025-05-21 18:26:51,102 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:26:51] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:28:57,984 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 18:28:58,007 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 18:28:58,053 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\routes.py', reloading
+2025-05-21 18:28:59,765 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 18:29:20,780 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 18:29:20,783 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 18:29:20,787 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 18:29:20,856 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 18:29:20,873 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 18:29:22,092 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:29:22] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:29:30,960 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:29:30] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 18:30:39,028 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:30:39] "GET / HTTP/1.1" 200 -
+2025-05-21 18:30:41,989 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\netrc.py', reloading
+2025-05-21 18:30:43,593 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 18:31:06,977 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 18:31:06,979 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 18:31:06,984 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 18:31:07,045 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 18:31:07,067 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 18:31:09,942 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:31:09] "GET /data HTTP/1.1" 200 -
+2025-05-21 18:31:12,883 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:31:12] "GET /data HTTP/1.1" 200 -
+2025-05-21 18:31:44,454 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:31:44] "POST /data HTTP/1.1" 200 -
+2025-05-21 18:31:47,085 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:31:47] "POST /data HTTP/1.1" 200 -
+2025-05-21 18:31:50,895 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:31:50] "GET /data HTTP/1.1" 200 -
+2025-05-21 18:31:53,538 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:31:53] "GET /data HTTP/1.1" 200 -
+2025-05-21 18:31:56,366 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:31:56] "GET /data HTTP/1.1" 200 -
+2025-05-21 18:31:59,013 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:31:59] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:31:59,335 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:31:59] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:32:04,379 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:32:04] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:32:09,074 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:32:09] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:32:14,392 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:32:14] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:32:19,069 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:32:19] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:32:24,422 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:32:24] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:32:29,064 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:32:29] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:32:34,394 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:32:34] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:32:39,085 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:32:39] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:32:44,375 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:32:44] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:32:49,557 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:32:49] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:32:54,411 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:32:54] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:32:59,078 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:32:59] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:33:52,419 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:33:52] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:34:52,409 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:34:52] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:35:52,608 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:35:52] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:36:52,452 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:36:52] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:37:53,754 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:37:53] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:38:53,020 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:38:53] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:39:52,440 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:39:52] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:40:52,426 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:40:52] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:41:52,431 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:41:52] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:42:52,457 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:42:52] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:43:52,096 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:43:52] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:44:52,420 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:44:52] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:45:52,171 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:45:52] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:46:45,908 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:46:45] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:46:49,087 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:46:49] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:46:54,384 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:46:54] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:46:59,096 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:46:59] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:47:04,392 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:47:04] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:47:09,079 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:47:09] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:47:14,386 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:47:14] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:47:19,094 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:47:19] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:47:24,373 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:47:24] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:47:29,696 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:47:29] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:47:34,273 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:47:34] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:47:39,412 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:47:39] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:47:44,088 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:47:44] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:47:52,415 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:47:52] "GET /status HTTP/1.1" 200 -
+2025-05-21 18:48:52,426 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:48:52] "GET /status HTTP/1.1" 200 -
+2025-05-21 19:23:37,543 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 19:23:37,546 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 19:23:37,552 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 19:23:38,567 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.4.253.98:8080
+2025-05-21 19:23:38,571 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 19:23:38,919 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 19:23:57,958 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 19:23:57,960 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 19:23:57,965 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 19:23:58,041 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 19:23:58,065 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 19:23:58,294 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 19:23:58] "GET / HTTP/1.1" 200 -
+2025-05-21 19:24:03,139 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 19:24:03] "GET / HTTP/1.1" 200 -
+2025-05-21 19:24:05,155 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 19:24:05] "GET /joke HTTP/1.1" 200 -
+2025-05-21 19:24:05,456 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 19:24:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-21 19:24:06,341 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 19:24:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 19:24:08,517 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 19:24:08] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 19:24:10,876 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 19:24:10] "GET /api/joke HTTP/1.1" 200 -
+2025-05-21 19:27:31,798 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\Test_vertexAI.py', reloading
+2025-05-21 19:27:31,922 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\app\\templates\\__init__.py', reloading
+2025-05-21 19:27:32,087 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Martin Anres\\OneDrive - ESME\\Cours ESME INGE 2\\Data tools\\projet_blagues-projet-final\\test_connection.py', reloading
+2025-05-21 19:27:35,719 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 19:28:10,135 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 19:28:10,137 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 19:28:10,141 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 19:28:10,212 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 19:28:10,232 - werkzeug - INFO -  * Debugger PIN: 293-510-647
+2025-05-21 19:31:12,098 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\argparse.py', reloading
+2025-05-21 19:31:13,221 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 19:31:34,530 - gcs_operations - ERROR - Fichier de credentials non trouvé à : C:\Users\Martin Anres\OneDrive - ESME\Cours ESME INGE 2\Data tools\projet_blagues-projet-final\mini-projet-459407-943395c7a1f3.json
+2025-05-21 19:31:34,550 - app_routes - ERROR - Les credentials ne sont pas correctement configurés
+2025-05-21 19:31:34,558 - app_routes - INFO - Modèle Gemini chargé avec succès
+2025-05-21 19:31:34,744 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 19:31:34,778 - werkzeug - INFO -  * Debugger PIN: 293-510-647

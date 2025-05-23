@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des Données - API Cloud</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            background: none;
+            border: none;
+            color: #7f8c8d;
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .back-button:hover {
+            transform: translateX(-5px);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+
+        .data-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .section {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+        }
+
+        .section h2 {
+            color: #2c3e50;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .data-display {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            border: 1px solid #e0e0e0;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .data-form {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .form-group {
+            display: grid;
+            gap: 0.5rem;
+        }
+
+        label {
+            color: #2c3e50;
+            font-weight: 500;
+        }
+
+        input, textarea {
+            padding: 0.8rem;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        .endpoint-info {
+            background: #2c3e50;
+            color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            font-family: monospace;
+            margin-top: 1rem;
+            display: inline-block;
+        }
+
+        .refresh-button {
+            background: #2ecc71;
+            margin-left: 1rem;
+        }
+
+        .refresh-button:hover {
+            background: #27ae60;
+        }
+
+        pre {
+            margin: 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-button">←</a>
+        <header>
+            <div class="data-icon">📊</div>
+            <h1>Gestion des Données</h1>
+        </header>
+
+        <div class="section">
+            <h2>Données Actuelles</h2>
+            <div class="data-display">
+                <pre id="currentData">Chargement...</pre>
+            </div>
+            <button class="refresh-button" onclick="loadData()">Actualiser</button>
+            <div class="endpoint-info">GET /data</div>
+        </div>
+
+        <div class="section">
+            <h2>Ajouter des Données</h2>
+            <form class="data-form" onsubmit="submitData(event)">
+                <div class="form-group">
+                    <label for="newData">Nouvelles Données (JSON)</label>
+                    <textarea id="newData" rows="4" placeholder='{"key": "value"}'></textarea>
+                </div>
+                <button type="submit">Ajouter</button>
+            </form>
+            <div class="endpoint-info">POST /data</div>
+        </div>
+    </div>
+
+    <script>
+        async function loadData() {
+            try {
+                const response = await fetch('/data', {
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+                const data = await response.json();
+                document.getElementById('currentData').textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                document.getElementById('currentData').textContent = "Erreur lors du chargement des données";
+            }
+        }
+
+        async function submitData(event) {
+            event.preventDefault();
+            const newData = document.getElementById('newData').value;
+            
+            try {
+                const response = await fetch('/data', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: newData
+                });
+                
+                const result = await response.json();
+                alert('Données ajoutées avec succès !');
+                loadData();
+                document.getElementById('newData').value = '';
+            } catch (error) {
+                alert('Erreur lors de l\'ajout des données');
+            }
+        }
+
+        loadData();
+    </script>
+</body>
+</html> 
